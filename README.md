@@ -4,7 +4,7 @@ OpenCDMS is a single-reference free open-source Climate Data Management System b
 It stores observational data concerning water, weather and climate in a secure and flexible manner and enables
 extracting useful information from the data. 
 
-OpenCDMS is a free open-source project, licensed under GPL3. It is intended to be used by the National Meteorological
+OpenCDMS is intended to be used by the National Meteorological
 and Hydrological Services (NMHS) of WMO Members, and by any others wishing to use best-practices in managing and using
 climate data.
 
