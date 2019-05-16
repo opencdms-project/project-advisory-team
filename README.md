@@ -1,7 +1,7 @@
 # OpenCDMS
 
-OpenCDMS is a single-reference free open-source Climate Data Management System based on tested software practices.
-It stores observational data concerning water, weather and climate in a secure and flexible manner and enables
+OpenCDMS is a single-reference free open-source Climate and Hydrological Data Management System based on tested software practices.
+It stores observational data concerning water, weather, hydrology and climate in a secure and flexible manner and enables
 extracting useful information from the data. 
 
 OpenCDMS is intended to be used by the National Meteorological
