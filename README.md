@@ -2,10 +2,10 @@
 ## Climate and Hydrology Data Management System
 
 OpenCDMS is a Reference Open Source Data Management System for atmospheric,
-hydrological, marine and other environmental data with a time-series
-component. It stores observational data concerning water, weather,
-hydrology and climate in a secure and flexible manner and enables extracting
-useful information from the data. 
+hydrological, marine, phenological, composition and other environmental data 
+with a time-series component. It stores observational data concerning water, 
+weather, hydrology and climate in a secure and flexible manner and enables 
+extracting useful information from the data. 
 
 OpenCDMS is intended to be used by the National Meteorological and
 Hydrological Services (NMHS) of WMO Members, and by any others wishing to
