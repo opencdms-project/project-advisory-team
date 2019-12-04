@@ -102,6 +102,8 @@ As required by OpenWIS AISBL Internal Rules, the initial development (phase 1 to
 
 The overall strategic direction of the project will be determined by the Project Management Committee (PMC) whilst the day to day operations will be overseen by the **Project Technical Team (PTT)** and a **Project Advisor Team (PAT)**.
 
+![Initial project structure](https://raw.githubusercontent.com/opencdms/opencdms-project/master/charter/project_structure.png)
+
 The Project Advisor Team will follow a bottom-up approach creating rapid prototypes with the aim of graduating these to production. The Project Management Committee will mediate between the two teams
 
 ### Project Management Committee (PMC)
