@@ -29,11 +29,11 @@ For OpenCDMS to thrive, it needs to be seen to be agile and managed by consensus
 
 The OpenCDMS project will include modules providing specific data products to the WMO Information System, but assumes that WIS provides the interface to receive and transmit these products.
 
-The OpenCDMS project will include porting of end-user hydrology and climate applications which are currently operational in precursor systems (Climsoft, MCH, ClidDE, etc) but will not include development of new end-user applications. It is assumed that these will be provided by the (separate) WMO Climate Services Toolbox project, or others.
+The OpenCDMS project aims to offer hight quality hydrology and climate data, applications and services which help in adressing today national, regional and global needs. The OpenCDMS will ensure the porting of most functions in used by NMHSs, including the present open source CDMSs (Climsoft, MCH, ClidDE, etc.) and non-open source systems willing to participate to the project. It will also propose innovative methodologies and products that take into account available up-to-date standards and data. [This is because we need to attract also developed countries. They need to find an interest in the OpenCDMS project. Not to let them think that it is another system intended only for developing countries. It should be a system for all, open to all colaborative work on climate and hydrology]
 
 ## Project Approach
 
-OpenCDMS has two strands. One is a top-down approach which sets what is acceptable for the reference functions of OpenCDMS, where it will either replace existing CDMS or act as the reference for the processes in those CDMSs. The other is a bottom-up approach which builds on existing precursor CDMSs, including building rapid prototypes and adding recommended features of OpenCDMS into existing systems.
+OpenCDMS has two strands. One is a top-down approach which sets Towards which standards (practices, functions, methods, architecture, information technology) should OpenCDMS aim to achieve. The other is a bottom-up approach which builds on existing precursor CDMSs, including building rapid prototypes and adding recommended features of OpenCDMS into existing systems.
 
 ### Phase 1: Incubation Phase
 
@@ -47,9 +47,9 @@ During this phase, a strategy for implementation will be developed, and the codi
 
 In the second phase, a common data model for OpenCDMS will be developed and tested, using the API. User interface modules will be ported and tested with the OpenCDMS data model. These user interfaces will include data ingestion, storage, exchange and quality control and production of the minimum set of climate-relevant products that are required by WMO standards and recommended practices. This includes storage of data obtained through data rescue activities. 
 
-Also with the core implementation, processes and tools for migration from predecessor CDMSs (MCH, CliDE, Climsoft etc) will be developed and tested.
+Also with the core implementation, processes and tools for migration from predecessor CDMSs (MCH, CliDE, Climsoft, CLIDATA, etc.) will be developed and tested.[ I added CLIDATA because CLIDATA is the system that is the most represented in the world, and most of whose implementation have been funded by WMO. ]
 
-Implementation in a number of NMHSs will be undertaken, initially with those who already use a precursor CDMS.
+Implementation in a number of NMHSs will be undertaken, according to a strategy to be implemented: where the need is greatest and/or where synergies can be most effective.[As we do not know yet what would be the future OpenCDMS and who will contribute the most, it is difficult at this stage to say which NMHS will be in high-priority. In my opinion it is not the project to decide on that.]
 
 ### Phase 3: Consolidation and Improvement
 
@@ -59,7 +59,7 @@ At this stage, OpenCDMS will link to Oscar/surface to exchange information on th
 
 Implementation and training will continue to expand the number of user sites.
 
-Then phase 4, the “mature phase” for the long term will focus on consolidation, maintenance, training and support. There will be an emphasis on implementation in NMHSs which do not currently use a CDMS. Also use of OpenCDMS to test compliance of other CDMSs with WMO Recommendations on best-practice.
+Then phase 4, the “mature phase” for the long term will focus on consolidation, maintenance, training and support. ["There will be an emphasis on implementation in NMHSs which do not currently use a CDMS. Also use of OpenCDMS to test compliance of other CDMSs with WMO Recommendations on best-practice". Once again it is difficult here to say that the OpenCDMS project will be the one that will decide on the implementation strategy and that will surely depend on donors, allocated budgets, interests and meritocracy of NMHSs.We need to specify the limits of the project : (1) pure development / (2) strategy on CDMS implementation / (3) Capacity building of developing countries ? 
 
 ## Milestones & Schedule
 
@@ -92,7 +92,9 @@ As an open source project, OpenCDMS will be delivered by a range of contributors
 
 OpenCDMS will encourage contributions from Members of WMO and of the Association of Hydro-Meteorological Equipment Industry (HMEI) as well as non-profit organizations, universities, the Food and Agricultural Organization, and other interested bodies and individuals. 
 
-Users in the NMHSs will be encouraged to participate as Contributors, especially from their experience, and in the design, testing and usage discussions. There will be an emphasis on inclusion and mentoring for contributors based in developing and least-developed countries while being vigilant on the use of the best adapted and most appropriate technologies.
+Users in the NMHSs but also from any other organisation managing environmental data will be encouraged to participate as Contributors, especially from their experience, and in the design, testing and usage discussions. ["There will be an emphasis on inclusion and mentoring for contributors based in developing and least-developed countries while being vigilant on the use of the best adapted and most appropriate technologies". Here also I think it is not needed to write this in the Project Charter. The objective is to get an efficient system taking account the worldwide experience of all. it seems necessary to work with all users and developers enthusiastic about this project, whether they come from Africa or from Silicon Valley. I also think that the latest information technologies require pure professional developers. It is no longer up to meteorologists to be computer code developers as well. This work has become far too specific. I do not say that contrinutors should not come from developing and least developing countries, on the contrary. I say that the desire to participate to he project, the expertise, the competence, the meritocracy are the basement of a sustanaible project.
+
+
 
 At this stage, it is not envisaged to solicit any funding from or through the OpenWIS AISBL.
 
@@ -133,7 +135,7 @@ The PTT will manage the implementation of the long-term strategic direction and 
 The PTT has a predominantly technical role and leads day-to-day software delivery and management of the production software (github.com/opencdms ) They have responsibility for coordinating technical effort and ensuring software quality across the entire project (both the production code on the left and prototypes on the right).
 
 The PTT will be responsible for software development and delivery from day one; particular responsibilities are:
-a)	Supervise, support and train developers in the right hand prototyping groups to ensure that the solutions being developed become high quality.
+a)	Supervise, support and train developers in the right hand prototyping groups to ensure that the solutions being developed become high quality and compliant with WMO practices and standards.
 b)	Ensure that software moves from right to left when it is ready.
 c)	Ensure that solutions do not transfer if they are not yet fit for purpose.
 
