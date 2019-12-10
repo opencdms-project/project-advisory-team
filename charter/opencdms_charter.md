@@ -4,11 +4,11 @@ OpenCDMS is a free Reference Open Source Climate Data Management System for atmo
 
 ## Climate Data Management System (CDMS) Strategy
 
-A survey from the Commission for Climatology (CCl) of the World Meteorological Organization (WMO) revealed that WMO Members operate almost 100 different Climate Data Management Systems (CDMSs), developed in the absence of consistent WMO CDMS specifications. The survey estimated that almost 50% of WMO Members face operational issues with their CDMS and almost 25% of Members do not use an electronic database to manage climate data
+A survey from the Commission for Climatology (CCl) of the World Meteorological Organization (WMO) revealed that WMO Members operate almost 100 different Climate Data Management Systems (CDMSs), developed in the absence of consistent WMO CDMS specifications. The survey estimated that almost 50% of WMO Members face operational issues with their CDMS and almost 25% of Members do not use an electronic database to manage climate data.
 
-Climate Data Management System Specifications are documented in https://library.wmo.int/doc_num.php?explnum_id=7867
+See: [Climate Data Management System Specifications](https://library.wmo.int/doc_num.php?explnum_id=7867)
 
-WMO aims to achieve a step-change in addressing capability required to respond to many questions of societal needs for climate information and services; and acting nationally to implement and evolve interoperable and sustainable CDMSs that will address national requirements for climate data, and in addition help in addressing regional and global needs.
+WMO aims to achieve a step-change in addressing the capabilities required to respond to many questions of societal needs for climate information and services; and acting nationally to implement and evolve interoperable and sustainable CDMSs that will address national requirements for climate data, and in addition help in addressing regional and global needs.
 
 WMO Commission for Climatology in April 2018 (Resolution 4) decided:
 
@@ -31,7 +31,7 @@ For OpenCDMS to thrive, it needs to be seen to be agile and managed by consensus
 
 The OpenCDMS project will include modules providing specific data products to the WMO Information System, but assumes that WIS provides the interface to receive and transmit these products.
 
-The OpenCDMS project will include porting of end-user hydrology and climate applications which are currently operational in precursor systems (Climsoft, MCH, CliDE, etc) but will not include development of new end-user applications. It is assumed that these will be provided by the (separate) WMO Climate Services Toolbox project, or others.
+The OpenCDMS project will include porting of end-user hydrology and climate applications which are currently operational in precursor systems (Climsoft, MCH, CliDE, etc) but will not include development of new end-user applications. It is assumed that these will be provided by the (separate) WMO Climate Services Toolkit project, or others.
 
 ## Project Approach
 
@@ -43,15 +43,15 @@ The “incubation” phase is to build a community of contributors and developer
 
 This phase includes a communication plan for OpenCDMS promoted through WMO to provide information and awareness about the project to WMO Members, the Association of Hydro-Meteorological Equipment Industry (HMEI), current CDMS developers and distributors, scientist and academic organizations.
 
-During this phase, a strategy for implementation will be developed, and the coding and implementation tools and standards will be investigated and agreed. An Application Programming Interface will be developed which will wrap the database system for two (or more) of the candidate precursor CDMS (initially Climsoft and MCH).  
+During this phase, a strategy for implementation will be developed, and the coding and implementation tools and standards will be investigated and agreed. An Application Programming Interface will be developed which will manage communication with two (or more) of the candidate precursor CDMS.
 
 ### Phase 2: Core Implementation
 
-In the second phase, a common data model for OpenCDMS will be developed and tested, using the API. User interface modules will be ported and tested with the OpenCDMS data model. These user interfaces will include data ingestion, storage, exchange and quality control and production of the minimum set of climate-relevant products that are required by WMO standards and recommended practices. This includes storage of data obtained through data rescue activities. 
+In the second phase, a common data model for OpenCDMS will be developed and tested, using the API. Modules will be ported and tested with the OpenCDMS data model. These modules will include data ingestion, storage, exchange and quality control and production of the minimum set of climate-relevant products that are required by WMO standards and recommended practices. This includes storage of data obtained through data rescue activities. 
 
 Also with the core implementation, processes and tools for migration from predecessor CDMSs (MCH, CliDE, Climsoft etc) will be developed and tested.
 
-Implementation in a number of NMHSs will be undertaken, initially with those who already use a precursor CDMS.
+Early testing in a number of NMHSs will be undertaken, initially with those who already use a precursor CDMS.
 
 ### Phase 3: Consolidation and Improvement
 
@@ -61,6 +61,8 @@ At this stage, OpenCDMS will link to Oscar/surface to exchange information on th
 
 Implementation and training will continue to expand the number of user sites.
 
+### Phase 4: Mature phase
+
 Then phase 4, the “mature phase” for the long term will focus on consolidation, maintenance, training and support. There will be an emphasis on implementation in NMHSs which do not currently use a CDMS. Also use of OpenCDMS to test compliance of other CDMSs with WMO Recommendations on best-practice.
 
 ## Milestones & Schedule
@@ -68,8 +70,8 @@ Then phase 4, the “mature phase” for the long term will focus on consolidati
 | Period      | Phase                                  | On-going process                               |
 |-------------|----------------------------------------|------------------------------------------------|
 | End of 2020 | Phase 1: Incubation                    | Communication                                  |
-| End of 2021 | Phase 2: Core Implementation           | Building the community                         |
-| End of 2023 | Phase 3: Consolidation and Improvement | Maintaining capability, support implementation |
+| End of 2022 | Phase 2: Core Implementation           | Building the community                         |
+| End of 2024 | Phase 3: Consolidation and Improvement | Maintaining capability, support implementation |
 | On-going    | Mature phase                           | Developing and debugging, technology watch     |
 
 ## Deliverables
@@ -84,11 +86,16 @@ Then phase 4, the “mature phase” for the long term will focus on consolidati
 
 ## Configuration management
 
-Development and documentation will be managed through the Gihub project https://github.com/opencdms as a free open-source project using best-practice and following the rules of the OpenWIS Association.
+* The opencdms.org domain name is currently registered at https://www.namecheap.com/
+* The OpenCDMS website is currently hosted on a private server owned by a [member of the community](https://github.com/opencdms/opencdms-project/issues/10)
+* Development and documentation will be managed through the GitHub organization https://github.com/opencdms as a free open-source project using best-practice and following the rules of the OpenWIS Association.
+* A secondard GitHub organisation exists to separate prototype work that has not been agreed by the wider community at https://github.com/opencdms-dev
+* Mailing list (currently not open) https://groups.google.com/a/wmo.int/forum/#!forum/opencdms
+* Gitter https://gitter.im/opencdms
 
 ## Sponsor and funding source
 
-WMO is one of the sponsors of the OpenCDMS. WMO has an established mechanism for receiving, managing and spending voluntary financial contributions through trust funds or special accounts. The sustainability of the interest of WMO for a Reference open-source CDMS, is clearly indicated in its Resolutions (CCl and Congress see above).
+WMO is one of the sponsors of OpenCDMS. WMO has an established mechanism for receiving, managing and spending voluntary financial contributions through trust funds or special accounts. The sustainability of the interest of WMO for a Reference open-source CDMS, is clearly indicated in its Resolutions (CCl and Congress see above).
 
 As an open source project, OpenCDMS will be delivered by a range of contributors. Some of those individuals will be volunteers contributing in their personal time, and others will be assigned by their employers to contribute to the project. OpenCDMS will need to solicit those contributions.
 
@@ -132,19 +139,20 @@ The Chair of Project Management Team is to be proposed by the Members of the Pro
 ### Project Technical Team (PTT)
 The PTT will manage the implementation of the long-term strategic direction and be responsible for determining top-down what is accepted into the OpenCDMS software as a high-quality reference and practical system. The PTT has the responsibility to “plan for success”.
 
-The PTT has a predominantly technical role and leads day-to-day software delivery and management of the production software (github.com/opencdms ) They have responsibility for coordinating technical effort and ensuring software quality across the entire project (both the production code on the left and prototypes on the right).
+The PTT has a predominantly technical role and leads day-to-day software delivery and management of the production software (github.com/opencdms) They have responsibility for coordinating technical effort and ensuring software quality across the entire project (both the production code on the left and prototypes on the right of figure 1).
 
-The PTT will be responsible for software development and delivery from day one; particular responsibilities are:
-a)	Supervise, support and train developers in the right hand prototyping groups to ensure that the solutions being developed become high quality and compliant with WMO practices and standards.
-b)	Ensure that software moves from right to left when it is ready.
+The PTT will be responsible for software development and delivery; particular responsibilities are:
+a)	Supervise, support and train developers in prototyping groups to ensure that the solutions being developed become high quality and compliant with WMO practices and standards.
+b)	Ensure that software moves from prototype to production when it is ready.
 c)	Ensure that solutions do not transfer if they are not yet fit for purpose.
 
 ### Project Advisor Team (PAT)
 
-The Project Advisor Team on the right hand side has a predominantly non-technical role. The team’s objective is to bring new parties into the safe-sandbox environment and facilitate collaborations/experimentation (github.com/opencdms-dev ). 
+The Project Advisor Team on the right hand side of figure 1 has a predominantly non-technical role. The team’s objective is to bring new parties into the safe-sandbox environment and facilitate collaborations/experimentation (github.com/opencdms-dev). 
 
 The PAT has the responsibility to “plan for failure”. This means:
 * Work undertaken should be useful within existing CDMS projects even if it is not used in OpenCDMS.
 * If the OpenCDMS high-level approach does not succeed then the bottom up approach would still rationalise and improve the existing CDMS.
 
-New developers (people), and the software that they create (code), will generally both start on the right. The responsibility of the PTT is to up skill developers so they know how to operate as open source software engineers (so they can move to the left hand team) and also to improve the quality of the software solutions that are created so that they meet the required standards (so that code can also move to the left).
+New developers (people), and the software that they create (code), will generally both start within the PAT. The responsibility to upskill developers, so they know how to contribute as open-source software engineers, will remain with the Project Technical Team (PTT).
+
