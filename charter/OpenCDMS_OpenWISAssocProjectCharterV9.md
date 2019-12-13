@@ -63,25 +63,15 @@ Migration, testing and use in a number of NMHSs will be undertaken.
 
 The &quot;mature phase&quot; for the long term will focus on consolidation, maintenance, training and support, as well as addressing any bugs or urgent emerging requirements. Considering the CDMS Strategy described above, the OpenCDMS Project will encourage implementation in NMHSs of WMO Members and other entities, including both developed and developing countries, and work with partners to achieve this.
 
-## Milestones &amp; Schedule
+## Milestones & Schedule
 
-|
-## Period
- |
-## Phase
- |
-## On-going Process
- |
-| --- | --- | --- |
-| **end of 2020** | **Phase 1: incubation** | **Communication
-Building the community
-Maintaining capability
-Support implementation
-Developing &amp; Debugging
-Technology watch** |
-| **end of 2022** | **Phase 2: Core implementation** |
-| **end of 2024** | **Phase 3: Consolidation and improvement** |
-| **on-going** | **Mature Phase** |
+| Period      | Phase                                  | On-going process                               |
+|-------------|----------------------------------------|------------------------------------------------|
+| End of 2020 | Phase 1: Incubation                    | Communication                                  |
+| End of 2022 | Phase 2: Core Implementation           | Building the community                         |
+| End of 2024 | Phase 3: Consolidation and Improvement | Maintaining capability, support implementation |
+| On-going    | Mature phase                           | Developing and debugging, technology watch     |
+
 
 ## Deliverables
 
