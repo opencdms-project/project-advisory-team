@@ -6,7 +6,7 @@ OpenCDMS is a free Reference Open Source Climate Data Management System for atmo
 
 A survey from the Commission for Climatology (CCl) of the World Meteorological Organization (WMO) revealed that WMO Members operate almost 100 different Climate Data Management Systems (CDMSs), developed in the absence of consistent WMO CDMS specifications. The survey estimated that almost 50% of WMO Members face operational issues with their CDMS and almost 25% of Members do not use an electronic database to manage climate data. Though the survey was published in 2013, there is little evidence of improvement since then.
 
-Climate Data Management System Specifications are documented in WMO-No 1131 ([https://library.wmo.int/doc\_num.php?explnum\_id=7867](https://library.wmo.int/doc_num.php?explnum_id=7867) )
+Climate Data Management System Specifications are documented in [WMO-No 1131](https://library.wmo.int/doc_num.php?explnum_id=7867).
 
 WMO aims to achieve a step-change in addressing the capabilities required to respond to many questions of societal needs for climate information and services; and acting nationally to implement and evolve interoperable and sustainable CDMSs that will address national requirements for climate data, and in addition help in addressing regional and global needs.
 
@@ -88,7 +88,6 @@ The &quot;mature phase&quot; for the long term will focus on consolidation, main
 
 - The domain name [www.opencdms.org](http://www.opencdms.org) will be transferred to the OpenWIS Association.
 - Development and documentation will be managed through the GitHub project [https://github.com/opencdms](https://github.com/opencdms) as a free open-source project using best-practice and following the rules of the OpenWIS Association.
-- A secondary GitHub organization exists to separate prototype work that has not been agreed by the wider community at [https://github.com/opencdms-dev](https://github.com/opencdms-dev) .
 
 ## Sponsor and funding source
 
