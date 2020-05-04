@@ -1,11 +1,12 @@
 # Project Charter for the _OpenCDMS_ _project_
-# An open-source initiative for a Climate Data Management System (CDMS)
+
+## An open-source initiative for a Climate Data Management System (CDMS)
 
 ## Vision
 
 OpenCDMS aims to become a free Reference Open Source Climate Data Management System for atmospheric, hydrological, marine, phenological, air composition and other environmental data with a time-series component.
 
-### Nationally
+#### Nationally
 
 Offer, to any National Meteorological and Hydrological Service (NMHS) and any other climate related entity, software solutions that are sustainable, cost-effective, technologically efficient and compliant with the World Meteorological Organization and international standards, for:
 
@@ -14,7 +15,7 @@ Offer, to any National Meteorological and Hydrological Service (NMHS) and any ot
 - managing and analyzing climate data;
 - enabling production and delivery of climate products and services.
 
-### Globally
+#### Globally
 
 Become a constructive actor in the world of open source by bringing together a diverse and talented community to globally promote consistent, qualified, valued, authoritative and accessible climate data, products and services.
 
@@ -26,7 +27,7 @@ One of the products will be a package intended for use as an operational CDMS by
 
 For NMHSs and others who plan to use their own systems, and for the developers of 3rd party systems, the OpenCDMS Project will provide a reference function. This will include the ability for developers of other systems to use modules from the OpenCDMS Project within the free open-source licensing structure. Developers and users of other systems will also be able to compare the processes they implement against the peer-reviewed reference systems implemented in the OpenCDMS Project. The OpenCDMS project will maintain test datasets and associated results which can be used to test other systems for compliance with appropriate standards
 
-The OpenCDMS Project will implement in processes and systems the regulations and guidance in relevant WMO documents, including the Guide to Climatological Practices (WMO-No. 100), the Climate Data Management System Specifications (WMO-No. 1131) and the Manual of the High Quality Data Management Framework for Climate (WMO-No. 1238). The OpenCDMS Project will maintain close coordination with relevant programs, projects and Expert Teams (especially peer-review of methods and processes), on WMO Information Service (WIS), WMO _Integrated Global Observing System_ _( __WIGOS__ )_, the WMO Hydrological Observing System, etc. It will liaise with external organizations including the Global Framework for Climate Services (GFCS), the European Copernicus programme and its Climate Change Service and others.
+The OpenCDMS Project will implement in processes and systems the regulations and guidance in relevant WMO documents, including the Guide to Climatological Practices (WMO-No. 100), the Climate Data Management System Specifications (WMO-No. 1131) and the Manual of the High Quality Data Management Framework for Climate (WMO-No. 1238). The OpenCDMS Project will maintain close coordination with relevant programs, projects and Expert Teams (especially peer-review of methods and processes), on WMO Information Service (WIS), WMO Integrated Global Observing System (WIGOS), the WMO Hydrological Observing System, etc. It will liaise with external organizations including the Global Framework for Climate Services (GFCS), the European Copernicus programme and its Climate Change Service and others.
 
 The OpenCDMS Project will provide repository facilities for publication and archiving of any offered CDMS software and system, whether obsolete or current, with the aim of enabling inspection of those systems so the techniques are not lost, and thus enabling re-evaluation of products used in past studies.
 
@@ -78,7 +79,7 @@ The PMC may organize teams to manage Project activities or groups of activities,
 - User interfaces for data and metadata management designed, tested and implemented;
 - Specific end-user applications tested and implemented.
 
-## TimETABLE
+## Timetable
 
 Timetabling of Project activities and deliverables will be published in the Github Project documentation, with final decisions under control of the PMC.
 
