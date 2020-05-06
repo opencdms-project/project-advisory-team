@@ -107,4 +107,4 @@ As an open source project, OpenCDMS will be delivered by a range of contributors
 
 ## Configuration Management
 
-Development, documentation and other materials will be managed through the GiHub project [https://github.com/opencdms](https://github.com/opencdms) as a free open-source project using best-practice and following the rules of the OpenWIS Association.
+Development, documentation and other materials will be managed through the GitHub project [https://github.com/opencdms](https://github.com/opencdms) as a free open-source project using best-practice and following the rules of the OpenWIS Association.
