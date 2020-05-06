@@ -53,7 +53,7 @@ The initial membership of the PMC is proposed as follows:
 - WMO Secretariat;
 - OpenWIS Association AISBL representative;
 - Representative(s) of WMO Technical Commissions and other bodies representing climate and hydrology domains;
-- Representative(s) of projects for current associated CDMSs (MCH, Climsoft, CliDE etc)
+- Representative(s) of projects for current associated CDMSs (MCH, Climsoft, CliDE,etc);
 - Representative(s) of bodies providing developers and other support, including WMO Members, HMEI, non-profit organisations, universities and others.
 
 The Chair of the PMC is to be proposed by the Members of the Project Management Committee and endorsed by the OpenWIS Association AISBL Steering Committee.
@@ -71,7 +71,7 @@ The PMC may organize teams to manage Project activities or groups of activities,
 
 ## Deliverables
 
-- Governance, infrastructure and policies defined
+- Governance, infrastructure and policies defined;
 - Community of open-source contributors initiated and sustainable (on-going process);
 - Roadmap for OpenCDMS development, implementation and interfaces for environmental observation time-series data;
 - Precursor CDMSs improved and rationalized towards OpenCDMS;
