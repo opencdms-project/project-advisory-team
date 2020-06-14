@@ -37,4 +37,4 @@ NOTE: When receiving email updates from GitHub, if you reply to the email direct
 Unsure how to get involved? Get in touch by emailing support@opencdms.org
 
 ---
-Adminstration issues related to the high-level management of the OpenCDMS Project may also be discussed within the OpenWIS Association's [openwis-documentation](https://github.com/OpenWIS/openwis-documentation/issues?q=OpenCDMS) repository and may be reflected in their [risk register](https://github.com/OpenWIS/openwis-documentation/projects/4).
+Adminstration issues related to the high-level management of the OpenCDMS Project may also be discussed within the OpenWIS Association's [openwis-documentation](https://github.com/OpenWIS/openwis-documentation/issues?q=OpenCDMS) repository and may be reflected in their [risk register](https://github.com/OpenWIS/openwis-documentation/projects/4) (e.g. [#591](https://github.com/OpenWIS/openwis-documentation/issues/591)).
