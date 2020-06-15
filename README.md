@@ -28,7 +28,7 @@ Between July and December 2020 the OpenCDMS Project will focus on the following 
 | [opencdms-project](https://github.com/opencdms/opencdms-project/issues) | Determining how the project will be managed and high-level discussions |
 | [opencdms.org](https://github.com/opencdms/opencdms.org/issues) | The contents of the opencdms.org website |
 | [api](https://github.com/opencdms/api) | The API specifications will define universal APIs for interacting with conformant CDMSs. Work on a reference implemetation has started in the [data-api](https://github.com/opencdms/data-api/) and [process-api](https://github.com/opencdms/process-api/) repositories |
-| [data-model]() | The early versions of OpenCDMS will operate using existing CDMS data models. Models are being collected and discussed. Future work will include the creation of a next generation data model for OpenCDMS, it is intended that this will be the default data model from OpenCDMS version 2 onwards |
+| [data model](https://github.com/opencdms/datamodel) | The early versions of OpenCDMS will operate using existing CDMS data models. Models are being collected and discussed. Future work will include the creation of a next generation data model for OpenCDMS, it is intended that this will be the default data model from OpenCDMS version 2 onwards |
 
 When visiting each of the links above, be sure to click the <kbd>Watch</kbd> button at the top of the page in order to receive email updates for the activity.
 
